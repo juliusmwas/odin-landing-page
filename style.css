@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #1F2937; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 100;
+  } 
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+.links ul {
+    list-style-type: none;
+    display: flex;
+  } 
+.links ul li {
+    display: inline-block;
+  } 
+.links ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+.HERO {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+  } 
+.text-content {
+    max-width: 50%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+  }
+.text-content h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+.text-content p{
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+.HERO img {
+    max-width: 40%; 
+    height: auto; 
+  }
+button {
+    background-color: #3882f6;
+    color: #0A2540;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 30%;
+  }
+.container {
+    background: #0097B2;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.container h3{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+ }
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img {
+    width: 200px;
+    height: 250px;
+}
+.quote{
+    background-color: #e5e7eb;
+}
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2935;
+    padding: 80px;
+}
+.CTA{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+}
+.CTA P{
+    padding: 30px;
+}
+.CTA button{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 20px;
+}
+footer {
+    background: #7ecedb;
+    padding: 20px;
+    text-align: center;
+}
